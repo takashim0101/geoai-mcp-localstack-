@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "local-llm": {
+      "command": "node",
+      "args": [
+        "${workspaceFolder}/mcp-servers/local-llm/server.js"
+      ],
+      "env": {
+        "LLM_PROVIDER": "lmstudio", 
+        "OLLAMA_URL": "http://localhost:11434",
+        "LMSTUDIO_URL": "http://localhost:1234/v1"
+      },
+      "version": "1.0.0"
+    },
+    "gis-mcp": {
+      "command": "${workspaceFolder}/venv/Scripts/gis-mcp.exe",
+      "args": [],
+      "version": "1.0.0"
+    }
+  }
+}

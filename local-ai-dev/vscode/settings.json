@@ -1,0 +1,23 @@
+{
+  "security.workspace.trust.enabled": false,
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always"
+  },
+
+  "geminiCodeAssist.mcpServers": {
+    "local-llm": {
+      "enabled": true
+    },
+    "gis-mcp": {
+      "enabled": true
+    }
+  },
+
+  "geminiCodeAssist.telemetry.enabled": false,
+  "geminiCodeAssist.debugLogs": false,
+  "geminiCodeAssist.sendContentToGemini": "never",
+
+  "files.autoSave": "afterDelay",
+  "terminal.integrated.defaultProfile.windows": "PowerShell"
+}

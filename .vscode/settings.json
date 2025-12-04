@@ -1,0 +1,19 @@
+{
+  "mcp.servers": {
+    "lm-studio": {
+      "command": "node",
+      "args": ["mcp-client.js"],
+      "env": {
+        "OPENAI_API_KEY": "dummy",
+        "OPENAI_API_BASE": "http://localhost:1234/v1"
+      }
+    },
+    "ollama": {
+      "command": "node",
+      "args": ["mcp-client.js"],
+      "env": {
+        "OLLAMA_BASE_URL": "http://localhost:11434"
+      }
+    }
+  }
+}

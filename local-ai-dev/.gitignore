@@ -1,0 +1,43 @@
+# Python
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Node.js
+node_modules/
+
+# Build artifacts
+build/
+dist/
+
+# Test artifacts
+.coverage
+htmlcov/
+
+# Generated content
+maps/
+
+# Local LLM Config
+lmstudio/
+ollama/
+
+# IDE / Tooling
+.vscode/
+.gemini/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+!/.env.example
+
+# OS-specific
+.DS_Store
+Thumbs.db

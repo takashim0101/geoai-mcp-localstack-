@@ -1,0 +1,16 @@
+{
+  "cli": {
+    "checkForUpdates": false
+  },
+  "telemetry": {
+    "enabled": false
+  },
+  "sandbox": {
+    "network": "off",
+    "disableCloudCall": true
+  },
+  "privacy": {
+    "allowUpload": false,
+    "allowFileShare": false
+  }
+}
